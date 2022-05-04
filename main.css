@@ -68,6 +68,45 @@ button{
 
 }
 
+.row {
+    padding-top: 1em;
+}
+
+h3 {
+    color: #272726;
+    font-family: "Montez", Sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 0.8em;
+    letter-spacing: 1px;
+    font-style: italic;
+    
+}
+
+.btn-secondary {
+    background-color: #E6BE2A;
+    border-color: #E6BE2A;
+    color: #3B3830;
+}
+
+.btn-secondary:hover {
+    background-color: #f1d468;
+    border-color: #f1d468;
+    color: #3B3830;
+}
+
+.nav-item {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 0.01rem solid;
+    
+}
+
 
 
 
