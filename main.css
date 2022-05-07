@@ -35,7 +35,7 @@ button{
 
 .dark-bg {
     position: relative;
-    background: url('bg-img.png') no-repeat center center;
+    background: url('images/bg-img.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -147,4 +147,12 @@ h3 {
     background-color: #FFFDFF;
     color: black;
     transform: rotateX(180deg);
+}
+
+
+
+.btn-custom{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content !important; 
 }

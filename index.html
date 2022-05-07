@@ -8,6 +8,10 @@
         <link rel="icon" type="image/x-icon" href="favicon.png">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
         <link rel="stylesheet" type="text/css" href="main.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </head>
@@ -156,8 +160,8 @@
             </svg>
         </div>
 
-        <div class="position-absolute top-0 start-50 translate-middle-x border border-dark border-2 rounded-3 " id="menyy">
-            <p class="fw-bold fs-1 text text-center">MENÜÜ</p>
+        <div class="position-absolute top-0 start-50 translate-middle-x border border-dark border-2 rounded-3 p-4 px-5" id="menyy">
+            <p class="text text-center fw-bold h1 ">MENÜÜ</p>
         </div>
         
 
@@ -165,40 +169,58 @@
             <div class="row">
                 <div class="col-md flip-box">
                     <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h3>PASTA</h3>
-                            <img src="images/logo.png" alt="" class="img-fluid">
+                        <div class="container flip-box-front d-flex align-items-center">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/pasta.png" alt="" class="img-fluid ">
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <h3>PASTA</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-box-back">
-                            <h3>Alati värske pasta</h3>
-                            <p>Teeme oma pasta ise iga päev...</p>
-                            <a class="btn btn-primary" href="#" role="button">Vaata rohkem</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md flip-box">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h3>PITSA</h3>
-                            <img src="images/logo.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="flip-box-back">
-                            <h3>Pealkiri</h3>
-                            <p>Tekst</p>
-                            <a class="btn btn-primary" href="#" role="button">Vaata rohkem</a>
+                        <div class="flip-box-back p-1">
+                            <h5 class="mb-1">Alati värske pasta</h5>
+                            <p class="mb-1">Teeme oma pasta ise iga päev. Meil on valikus 8 erinevat spetsiaalsete omadustega pastasorti (lisaks tervislikud alternatiivid).</p>
+                            <a class="btn btn-danger" href="#" role="button">Vaata rohkem</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md flip-box">
                     <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h3>PASTA</h3>
-                            <img src="images/logo.png" alt="" class="img-fluid">
+                        <div class="container flip-box-front d-flex align-items-center">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/pizza.png" alt="" class="img-fluid ">
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <h3>PITSA</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-box-back">
-                            <h3>Alati värske pasta</h3>
-                            <p>Teeme oma pasta ise iga päev...</p>
-                            <a class="btn btn-primary" href="#" role="button">Vaata rohkem</a>
+                        <div class="flip-box-back p-1">
+                            <h5 class="mb-1">Justkui oleksid Itaalias</h5>
+                            <p class="mb-1">Isevalmistatud pitsatainas ja hoolikalt valitud koostisosad - 300° ahjus küpsedes sünnib meie pitsamaagia.</p>
+                            <a class="btn btn-danger" href="#" role="button">Vaata rohkem</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md flip-box">
+                    <div class="flip-box-inner">
+                        <div class="container flip-box-front d-flex align-items-center ">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/salad.png" alt="" class="img-fluid ">
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <h3>SALAT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-box-back p-1">
+                            <h5 class="mb-1">Värskust ja värve</h5>
+                            <p class="mb-1">Krõmpsud, värviküllased ja värskest toorainest valmistatud salatid on alati hea valik!</p>
+                            <a class="btn btn-danger" href="#" role="button">Vaata rohkem</a>
                         </div>
                     </div>
                 </div>
@@ -206,40 +228,58 @@
             <div class="row">
                 <div class="col-md flip-box">
                     <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h3>PASTA</h3>
-                            <img src="images/logo.png" alt="" class="img-fluid">
+                        <div class="container flip-box-front d-flex align-items-center ">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/dessert.png" alt="" class="img-fluid ">
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <h3>MAGUSTOIT</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-box-back">
-                            <h3>Alati värske pasta</h3>
-                            <p>Teeme oma pasta ise iga päev...</p>
-                            <a class="btn btn-primary" href="#" role="button">Vaata rohkem</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md flip-box">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h3>PASTA</h3>
-                            <img src="images/logo.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="flip-box-back">
-                            <h3>Alati värske pasta</h3>
-                            <p>Teeme oma pasta ise iga päev...</p>
-                            <a class="btn btn-primary" href="#" role="button">Vaata rohkem</a>
+                        <div class="flip-box-back p-1">
+                            <h5 class="mb-1">Muuda elu magusamaks</h5>
+                            <p class="mb-1">Kas "dolci"on see, millest unistad? Tiramisu, panna cotta, Crema di Fragola...</p>
+                            <a class="btn btn-danger" href="#" role="button">Vaata rohkem</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md flip-box">
                     <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <h3>PASTA</h3>
-                            <img src="images/logo.png" alt="" class="img-fluid">
+                        <div class="container flip-box-front d-flex align-items-center ">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/coffee.png" alt="" class="img-fluid ">
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <h3>BAAR</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flip-box-back">
-                            <h3>Alati värske pasta</h3>
-                            <p>Teeme oma pasta ise iga päev...</p>
-                            <a class="btn btn-primary" href="#" role="button">Vaata rohkem</a>
+                        <div class="flip-box-back p-1">
+                            <h5 class="mb-1">Kuum ja külm</h5>
+                            <p class="mb-1">Leia ideaalne jook oma lemmik Vapiano roa kõrvale!</p>
+                            <a class="btn btn-danger" href="#" role="button">Vaata rohkem</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md flip-box">
+                    <div class="flip-box-inner">
+                        <div class="container flip-box-front d-flex align-items-center ">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="images/children.png" alt="" class="img-fluid ">
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <h3>LASTELE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-box-back p-1">
+                            <h5 class="mb-1">Pere väiksemate lemmikud</h5>
+                            <p class="mb-1">Jagame rõõmu! Lõbusad jänku, karu ja kalakujulised pitsad ootavad!</p>
+                            <a class="btn btn-danger" href="#" role="button">Vaata rohkem</a>
                         </div>
                     </div>
                 </div>
@@ -259,46 +299,87 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col d-flex justify-content-end h-auto">
-                    <img class="img-fluid d-inline-block h-auto" src="images/wolt.png" alt="">
+                <div class="col">
+                    <img class="img-fluid mx-auto d-block" src="images/wolt.png" alt="">
                 </div>
                 <div class="col">
-                    <img class="img-fluid d-inline-block h-auto" src="images/take-away.png" alt="">
+                    <img class="img-fluid mx-auto d-block" src="images/take-away.png" alt="">
                 </div>
-                <div class="col d-flex justify-content-start">
-                    <img class="img-fluid d-inline-block h-auto" src="images/bolt.png" alt="">
+                <div class="col">
+                    <img class="img-fluid mx-auto d-block" src="images/bolt.png" alt="">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="light-bg">
-        <h2>VAPIANO ERIPAKKUMISED</h2>
+
+
+    <div class="light-bg m-5">
+        <p class="text-center fs-1 fw-bold">VAPIANO ERIPAKKUMISED</p>
     </div>
 
-    <div class="dark-bg text-white">
-        <div class="container">
+
+
+    <div class="dark-bg text-white p-5">
+
+        <div class="container mb-6">
             <div class="row">
-                <div class="col-md img-box">
-                    <h3>Oled õpilane?</h3>
-                    <img src="images/404.jpg" alt="" class="img-fluid">
+                <div class="col-md bg-image hover-zoom hover-overlay">
+                    <img src="images/opilane.jpg" alt="" class="img-fluid h-100">
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.411)"></div>
+                        </a>
                 </div>
-                <div class="col-md img-box">
-                    <h3>Uudisroad</h3>
-                    <img src="images/404.jpg" alt="" class="img-fluid">
+                <div class="col-md bg-image hover-zoom hover-overlay">
+                    <img src="images/uudisroad.jpg" alt="" class="img-fluid h-100">
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.411)"></div>
+                        </a>
                 </div>
-                <div class="col-md img-box">
-                    <h3>Lõuna vapianos</h3>
-                    <img src="images/404.jpg" alt="" class="img-fluid">
+                <div class="col-md bg-image hover-zoom hover-overlay">
+                    <img src="images/louna.jpg" alt="" class="img-fluid h-100">
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.411)"></div>
+                        </a>
                 </div>
             </div>
         </div>
-        <a class="btn btn-primary" href="#" role="button">Vaata rohkem pakkumisi</a>
+
+        <div class="d-flex mx-auto" style="width: 300px;">
+            <button type="button" class="btn btn-danger btn-lg">Vaata rohkem pakkumisi</button>
+        </div>
     </div>
 
 
 
+    <div class="light-bg p-5">
+        <div class="container shadow-5-strong p-4 mb-3 bg-body rounded">
+            <div class="row">
+                <div class="col-8 d-flex mx-auto flex-column">
+                    <p class="fs-1 fw-bold text-center">Leia värskus enda ümber!</p>
+                    <p class="text-center">Kasuta restorani otsingut ja leia endale lähim restoran.</p>
+                    <button class="btn btn-danger btn-custom">Restorani otsing</button>
+                </div>
+                <div class="col-4">
+                    <p class="fs-1 fw-bold text-end"> VAPIANO Restaurantfinder</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="light-bg p-2">
+        <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/vapianoestonia" class="text-dark fs-3 mx-5"> JÄLGI MEID INSTAGRAMIS</a>
+            <p class="text-danger fs-3 mx-5">#lovevapianoestonia</p>
+        </div>
+        <div class="bg-image ">
+            <img src="images/collage.jpg" class="mx-auto d-block" alt="" width="70%">
+            <div class="mask mx-auto d-block" style="background-color: rgba(0, 0, 0, 0.349); width: 70%;"></div>
+            <button type="button" class="btn btn-light text-danger" data-mdb-ripple-color="dark">@VAPIANOESTONIA</button>
+        </div>
+    </div>
+  
     <footer>
         <hr>
         <div class="container">
